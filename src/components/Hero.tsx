@@ -1,15 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight, Phone, MapPin, Heart, Stethoscope, Shield } from 'lucide-react';
 
+import img1 from '../assets/AAAA.00_00_29_18.Still003.png';
+import img2 from '../assets/AAAA.00_00_20_17.Still002.png';
+import img3 from '../assets/DSC_0284.jpg';
+import img4 from '../assets/DSC_0367.jpg';
+
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   
-  const backgroundImages = [
-    'https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=1920',
-    'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg?auto=compress&cs=tinysrgb&w=1920',
-    'https://images.pexels.com/photos/4099467/pexels-photo-4099467.jpeg?auto=compress&cs=tinysrgb&w=1920',
-    'https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg?auto=compress&cs=tinysrgb&w=1920'
-  ];
+  // const backgroundImages = [
+  //   '../assets/AAAA.00_00_29_18.Still003.png',
+  //   '../assets/AAAA.00_00_20_17.Still002.png',
+  //   '../assets/DSC_0284.jpg',
+  //   '../assets/DSC_0367.jpg'
+  // ];
+
+  const backgroundImages = [img1, img2, img3, img4]; // Use imported variables
 
   useEffect(() => {
     const interval = setInterval(() => {

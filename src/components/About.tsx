@@ -34,7 +34,7 @@ const About = () => {
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
             About Sahad Hospital
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto text-justify">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto text-center">
             Sahad Hospital is a reputable healthcare facility with a capacity of 200 beds 
             and 7 operating theaters. Known for its commitment to high-quality healthcare, 
             Sahad Hospital has earned the trust of patients and their families across the region.
@@ -54,7 +54,7 @@ const About = () => {
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 {feature.title}
               </h3>
-              <p className="text-gray-600 text-sm leading-relaxed text-justify">
+              <p className="text-gray-600 text-sm leading-relaxed">
                 {feature.description}
               </p>
             </div>
