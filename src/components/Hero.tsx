@@ -65,7 +65,7 @@ const Hero = () => {
             <p className="mt-6 text-lg text-gray-200 leading-relaxed">
               Sahad Hospitals stands as a beacon of excellence in the medical field, providing 
               state-of-the-art healthcare with cutting-edge technology and compassionate care 
-              in the heart of Apo.
+              in the heart of Abuja.
             </p>
             
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
