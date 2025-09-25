@@ -13,13 +13,13 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: 'Emergency Line',
-      details: '+234 801 234 5678',
+      details: '+234 7070111111',
       subtitle: '24/7 Emergency Services'
     },
     {
       icon: <Phone className="h-6 w-6" />,
       title: 'General Inquiries',
-      details: '+234 901 234 5678',
+      details: '+234 7070222222',
       subtitle: 'Mon - Fri, 8AM - 6PM'
     },
     {
@@ -31,7 +31,7 @@ const Contact = () => {
     {
       icon: <MapPin className="h-6 w-6" />,
       title: 'Visit Us',
-      details: 'Apo District, Abuja',
+      details: 'Plot 1756, Cadastral Zone E27, APO, Abuja, Federal Capital Territory',
       subtitle: 'Federal Capital Territory'
     }
   ];

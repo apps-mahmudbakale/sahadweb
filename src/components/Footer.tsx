@@ -95,7 +95,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <MapPin className="h-4 w-4 text-green-400 mr-3 flex-shrink-0" />
-                <span className="text-gray-300 text-sm">Apo District, Abuja, FCT</span>
+                <span className="text-gray-300 text-sm">Plot. 1756, Cadastral Zone E27, APO, Abuja, Federal Capital Territory</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-4 w-4 text-green-400 mr-3 flex-shrink-0" />
